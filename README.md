@@ -7,7 +7,7 @@
 
     On input a message M, first parse M into a sequence of octets M1, . . . , Mn. Then checksum 
     
-    T = $\sum_{i=1}^{n} M_i$ (mod 256).
+    T = sum(M_i mod 256) for i= 1 to n
     
     To build the binary, the following command can be performed:
             
