@@ -1,5 +1,6 @@
 # AES CTR Padding Attack
-> Golang programs for Padding Oracle attack on AES-CTR mode that uses HMAC with checksum
+
+## Golang programs for Padding Oracle attack on AES-CTR mode that uses checksum
 
 1. `encrypt-auth-chk` contains `main.go` program to perform AES encryption in CTR mode with HMAC. Here the AES function is used from the standard package, but the CTR mode encryption and checksum calculations are performed in program. 
 
@@ -29,7 +30,7 @@
 
         ./decrypt-attack-chk -i <ciphertext file>
 
-> Golang programs for Padding Oracle attack on AES-CTR mode that uses HMAC with CRC32
+## Golang programs for Padding Oracle attack on AES-CTR mode that uses CRC32
 
 1. `encrypt-auth-crc` contains `main.go` program to perform AES encryption in CTR mode with HMAC. Here the AES and CRC32 function is used from the standard package, but the CTR mode encryption calculation is performed in program. 
 
